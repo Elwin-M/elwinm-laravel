@@ -12,5 +12,11 @@ if [ ! -f "/var/www/html/package-lock.json" ]; then
     npm install
 fi
 
+# Check if vendor directory exists, if not, install dependencies
+if [ ! -d "/var/www/html/vendor" ]; then
+    echo "Vendor not found. Installing dependencies..."
+    composer update
+fi
+
 # Start the main process
 exec "$@"
