@@ -14,13 +14,14 @@ export default defineConfig({
             ],
         }),
     ],
-    server: {
-        host: true,
-        hmr: {
-            host: 'localhost'
-        },
-        // watch: {
-        //     usePolling: true,
-        // },
-    }
+    // UNNECESSARY WHEN USING ARTISAN SERVE. ONLY FOR DOCKER
+    // server: {
+    //     host: true,
+    //     hmr: {
+    //         host: 'localhost'
+    //     },
+    //     watch: {
+    //         usePolling: true,
+    //     },
+    // }
 });

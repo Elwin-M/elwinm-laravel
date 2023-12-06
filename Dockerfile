@@ -60,4 +60,4 @@ EXPOSE 5173
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 
-CMD php -d variables_order=EGPCS artisan serve --host=0.0.0.0 --port=80 & npm run dev
+CMD php -d variables_order=EGPCS artisan serve --host=0.0.0.0 --port=80

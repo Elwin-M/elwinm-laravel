@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Source the .env file to set environment variables (if it exists)
+if [ -f ".env" ]; then
+    echo "Loading environment variables from .env file..."
+    source .env
+fi
+
 # Check if node_modules directory exists, if not, install Node.js dependencies
 if [ ! -d "/var/www/html/node_modules" ]; then
     echo "Node modules not found. Installing Node.js dependencies..."
@@ -18,5 +24,16 @@ if [ ! -d "/var/www/html/vendor" ]; then
     composer install
 fi
 
-# Start the main process
+# Check APP_DEBUG value
+if [ "$APP_DEBUG" = "true" ]; then
+    # Run npm run dev for development
+    echo "Running npm run dev..."
+    npm run dev
+else
+    # Run npm run build for production
+    echo "Running npm run build for production..."
+    npm run build
+fi
+
+# Continue the rest of the process
 exec "$@"
