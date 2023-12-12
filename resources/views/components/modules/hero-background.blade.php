@@ -1,3 +1,4 @@
+<!-- Hero background image -->
 <svg aria-hidden="true" viewBox="0 0 668 1069" width="668" height="1069" fill="none"
     class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 lg:left-0 lg:translate-x-0 lg:translate-y-[-60%]"">
     <defs>

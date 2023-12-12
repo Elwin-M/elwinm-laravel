@@ -11,7 +11,7 @@
                     <!-- Title -->
                     <p
                         class="inline text-5xl tracking-tight text-transparent bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display">
-                        Never miss the cache again.
+                        Elwin <br class="sm:hidden" /> Moolakkattu
                     </p>
                     <!-- Subheading -->
                     <p class="mt-3 text-2xl tracking-tight text-slate-400">
