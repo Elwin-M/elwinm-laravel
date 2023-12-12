@@ -10,15 +10,36 @@ class ContentDisplay extends Component
 {
     use WithChangePage;
 
-    // public function mount()
-    // {
-    //     // $this->content = 'pages.test';
-    // }
-
     #[On('page-changed')]
-    public function changeContent($page)
+    public function changeContent($menu, $item)
     {
-        $this->content = $page;
+        $this->title = $menu;
+        $this->subheading = $item;
+
+        $pageDetails = $this->getPageDetails($menu, $item);
+        $this->content = $pageDetails['link'];
+        $this->pageTitle = $pageDetails['title'];
+        // $this->content = $link;
+        // $this->pageTitle = $title;
+        // $this->render();
+    }
+
+    public function getPageDetails($menu, $item)
+    {
+        $collection = collect($this->menusConfig);
+        $pageDetails = $collection[$menu][$item];
+
+        if (!view()->exists($pageDetails['link']))
+        {
+            $pageDetails['link'] = 'pages.404';
+            $pageDetails['title'] = 'Page Not Found';
+        }
+
+
+
+
+
+        return $pageDetails;
     }
 
     public function render()

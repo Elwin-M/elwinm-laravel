@@ -8,16 +8,30 @@ trait WithChangePage
 {
     public $content;
     public $menusConfig;
+    public $title;
+    public $pageTitle;
+    public $subheading;
 
     public function mount()
     {
         $this->menusConfig = config('menus');
-        $this->content = 'pages.test';
+        foreach ($this->menusConfig as $menu => $subItem)
+        {
+            $this->title = $menu;
+            foreach ($subItem as $item => $link)
+            {
+                $this->subheading = $item;
+                $this->content = $link['link'];
+                $this->pageTitle = $link['title'];
+                break;
+            }
+            break;
+        }
     }
 
-    public function changeContent($page)
+    public function changeContent($menu, $item)
     {
-        $this->dispatch('page-changed', $page);
+        $this->dispatch('page-changed', $menu, $item);
     }
 
 }
