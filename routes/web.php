@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('public.home');
+    return view('index');
+});
+
+Route::get('/404', function () {
+    return view('404');
 });
