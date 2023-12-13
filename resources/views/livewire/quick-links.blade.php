@@ -1,4 +1,4 @@
-<div class="text-base lg:text-sm" x-data="{ activePage : @entangle('content') }">
+<div class="text-base lg:text-sm">
     <ul role="list" class="space-y-9">
         <!-- Titles and links components -->
         @foreach ($menusConfig as $menu => $subItem)

@@ -17,7 +17,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
 </head>
 
-<body x-data="{ mobileMenu: false }" class="antialiased bg-slate-900">
+<body x-data="{ mobileMenu: false, activePage: '' }" class="antialiased bg-slate-900">
     {{ $slot }}
 </body>
 
