@@ -28,6 +28,6 @@
             </div>
         </div>
         <!-- Right page contents -->
-        <x-modules.current-page-contents />
+        {{-- <x-modules.current-page-contents /> --}}
     </div>
 </div>

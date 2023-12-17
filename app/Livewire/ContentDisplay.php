@@ -19,8 +19,10 @@ class ContentDisplay extends Component
         $pageDetails = $this->getPageDetails($menu, $item);
         $this->content = $pageDetails['link'];
         $this->pageTitle = $pageDetails['title'];
+
+
         // $this->content = $link;
-        // $this->pageTitle = $title;
+        // $this->pageTitle = $$this->title;
         // $this->render();
     }
 
@@ -34,10 +36,6 @@ class ContentDisplay extends Component
             $pageDetails['link'] = 'pages.404';
             $pageDetails['title'] = 'Page Not Found';
         }
-
-
-
-
 
         return $pageDetails;
     }

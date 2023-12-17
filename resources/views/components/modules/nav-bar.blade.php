@@ -1,7 +1,6 @@
 <!-- Navbar -->
 <div x-data="{ scrolled: false }"
-    @scroll.window="scrolled = (window.pageYOffset > 0);
-    scrolledUp = window.pageYOffset < lastScroll; lastScroll = window.pageYOffset"
+    @scroll.window="scrolled = (window.pageYOffset > 0);"
     class="sticky top-0 z-40 flex flex-wrap items-center justify-between px-4 py-5 transition duration-500 bg-white shadow-md dark:shadow-none sm:px-6 lg:px-8 dark:bg-transparent"
     :class="{ 'dark:backdrop-blur dark:bg-slate-900/75 dark:backdrop-filter dark:backdrop-filter-blur-sm': scrolled }">
     <!-- Mobile navigation menu -->
