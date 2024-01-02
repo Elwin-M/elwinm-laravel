@@ -1,7 +1,10 @@
+@section('pageTitle', 'Short')
+
 <div>
-    <h2 class="text-2xl tracking-tight font-display text-slate-900 dark:text-white">
-        Skills
-    </h2>
+    <x-modules.title-subtitle>
+        {{ $currentPageTitle }}
+        <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
+    </x-modules.title-subtitle>
 
     <p>
         This is a list of all the tools I use

@@ -1,4 +1,9 @@
 <div>
+    <x-modules.title-subtitle>
+        {{ $currentPageTitle }}
+        <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
+    </x-modules.title-subtitle>
+
     <p>
         As an accomplished Full Stack Developer, DevOps enthusiast, and AI aspirant, I hold a B.A. Honours in
         Information Technology and a minor in Business Administration from York University. My experience spans across

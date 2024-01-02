@@ -1,3 +1,12 @@
+@section('pageTitle', 'Short')
+
 <div>
-    {{-- Do your work, then step back. --}}
+    <x-modules.title-subtitle>
+        {{ $currentPageTitle }}
+        <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
+    </x-modules.title-subtitle>
+
+    <p>
+        CHANGEME
+    </p>
 </div>
