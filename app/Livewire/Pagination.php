@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Livewire\About;
+namespace App\Livewire;
 
 use App\Traits\WithChangePage;
 use Livewire\Component;
 
-class Long extends Component
+class Pagination extends Component
 {
     use WithChangePage;
 
     public function render()
     {
-        return view('livewire.about.long');
+        return view('livewire.pagination');
     }
 }
