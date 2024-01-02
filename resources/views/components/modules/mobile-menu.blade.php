@@ -16,7 +16,8 @@
             </a>
         </div>
         <div class="px-1 mt-5">
-            <livewire:quick-links /> <!-- Links to pages -->
+            <livewire:quick-links-main /> <!-- Links to pages -->
+            {{-- <x-modules.quick-links-main /> --}}
         </div>
     </div>
 </div>

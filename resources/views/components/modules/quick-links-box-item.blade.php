@@ -7,8 +7,7 @@
             @if (isset($linkText))
                 <a
                     wire:click="
-                    changeContent('{{ $menu }}', '{{ $item }}'),
-                    activePage = '{{ $link }}'">
+                    changeContent('{{ $menu }}', '{{ $item }}')" wire:navigate>
                     <span class="absolute inset-0 cursor-pointer rounded-xl"></span>
                     {{ $linkText }}
                 </a>

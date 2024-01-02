@@ -6,32 +6,33 @@ namespace App\Traits;
 
 trait WithChangePage
 {
-    public $content;
-    public $menusConfig;
-    public $title;
-    public $pageTitle;
-    public $subheading;
+    // public $content;
+    // public $menusConfig;
+    // public $title;
+    // public $pageTitle;
+    // public $subheading;
+    // public $activePage;
+    // public $header;
 
     public function mount()
     {
-        $this->menusConfig = config('menus');
-        foreach ($this->menusConfig as $menu => $subItem)
-        {
-            $this->title = $menu;
-            foreach ($subItem as $item => $link)
-            {
-                $this->subheading = $item;
-                $this->content = $link['link'];
-                $this->pageTitle = $link['title'];
-                break;
-            }
-            break;
-        }
+        // $this->menusConfig = config('menus');
+        // foreach ($this->menusConfig as $menu => $subItem)
+        // {
+        //     $this->title = $menu;
+        //     foreach ($subItem as $item => $link)
+        //     {
+        //         $this->subheading = $item;
+        //         $this->content = $link['link'];
+        //         $this->pageTitle = $link['title'];
+        //         break;
+        //     }
+        //     break;
+        // }
     }
 
-    public function changeContent($menu, $item)
-    {
-        $this->dispatch('page-changed', $menu, $item);
-    }
-
+    // public function changeContent($menu, $item)
+    // {
+    //     $this->dispatch('page-changed', $menu, $item);
+    // }
 }
