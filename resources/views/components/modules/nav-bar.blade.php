@@ -16,7 +16,7 @@
     </div>
     <!-- GitHub icon SVG code -->
     <div class="relative flex justify-end gap-6 basis-0 sm:gap-8 md:flex-grow">
-        <a href="https://github.com" class="group" aria-label="GitHub">
+        <a href="https://github.com/Elwin-M" class="group" aria-label="GitHub">
             <x-icons.github />
         </a>
     </div>

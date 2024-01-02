@@ -7,11 +7,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('pageTitle', @config('app.name'))</title>
-    {{-- <title>{{ $pageTitle ?? @config('app.name') }}</title> --}}
-
-    <!-- Fonts -->
-    {{-- <link rel="preconnect" href="https://fonts.bunny.net"> --}}
-    {{-- <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" /> --}}
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/fonts.css', 'resources/css/prism.css', 'resources/js/prism.js'])
@@ -21,8 +16,7 @@
     <!-- Nav bar and menu -->
     <x-modules.nav-bar />
     <x-modules.mobile-menu />
-    <!-- Hero section -->
-    {{-- <x-modules.hero-section /> --}}
+    <!-- Hero section for home page -->
     @if (request()->is('/'))
         <x-modules.hero-section />
     @endif
@@ -36,8 +30,9 @@
             <x-modules.desktop-menu />
         </div>
         <!-- Main body -->
-        <div class="flex-auto max-w-2xl min-w-0 px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
+        <div class="flex-auto max-w-2xl min-w-0 px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16 dark:text-slate-400">
             {{ $slot }}
+            <livewire:pagination />
         </div>
     </div>
 </body>

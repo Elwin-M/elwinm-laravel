@@ -34,7 +34,7 @@
     }
 
     .content-main-group {
-        @apply max-w-none dark:prose-invert dark:text-slate-400
+        @apply max-w-none dark:text-slate-400
     }
 
 }
