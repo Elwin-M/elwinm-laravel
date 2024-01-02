@@ -23,8 +23,7 @@
 
     <div class="relative flex justify-center mx-auto max-w-8xl sm:px-2 lg:px-8 xl:px-12">
         <div class="hidden lg:relative lg:block lg:flex-none">
-            <div class="absolute bottom-0 right-0 hidden w-px h-12 top-16 bg-gradient-to-t from-slate-800 dark:block">
-            </div>
+            <div class="absolute bottom-0 right-0 hidden w-px h-12 top-16 bg-gradient-to-t from-slate-800 dark:block"></div>
             <div class="absolute bottom-0 right-0 hidden w-px top-28 bg-slate-800 dark:block"></div>
             <!-- Left quicklinks -->
             <x-modules.desktop-menu />
