@@ -11,12 +11,13 @@
             <div x-on:click="mobileMenu = false">
                 <x-icons.hamburger-menu /> <!-- Hamburger menu -->
             </div>
-            <a href="/" class="ml-6" aria-label="Home page">
+            <a href="/" class="ml-6" aria-label="Home page" wire:navigate>
                 <x-icons.logomark /> <!-- Base logo -->
             </a>
         </div>
         <div class="px-1 mt-5">
-            <livewire:quick-links /> <!-- Links to pages -->
+            <livewire:quick-links-main /> <!-- Links to pages -->
+            {{-- <x-modules.quick-links-main /> --}}
         </div>
     </div>
 </div>

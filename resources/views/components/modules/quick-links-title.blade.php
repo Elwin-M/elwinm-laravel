@@ -9,4 +9,4 @@
             {{ $subSlot }}
         </div>
     @endif
-    </div>
+</div>
