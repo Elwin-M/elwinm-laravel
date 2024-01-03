@@ -38,7 +38,7 @@
     }
 
     .content-main-group {
-        @apply max-w-none text-slate-400;
+        @apply max-w-none text-slate-400 pb-6;
     }
 
     .link {
@@ -46,7 +46,7 @@
     }
 
     .link-underline {
-        @apply no-underline [--tw-background:theme(colors.slate.900)] shadow-[inset_0_calc(-1*var(--tw-underline-size,2px))_0_0_var(--tw-underline,theme(colors.sky.800))] hover:[--tw-underline-size:6px];
+        @apply no-underline [--tw-background:theme(colors.slate.900)] shadow-[inset_0_calc(-1*var(--tw-underline-size,2px))_0_0_var(--tw-underline,theme(colors.sky.800))] hover:[--tw-underline-size:4px];
     }
 
 }
