@@ -16,12 +16,12 @@
                     <!-- Subheading -->
                     <p class="mt-3 text-2xl tracking-tight text-slate-400">
                         Cache every single thing your app could ever do ahead of time, so your code never even
-                        has to run at all.
+                        has to run at all. CHANGEME
                     </p>
                     <!-- Buttons -->
                     <div class="flex gap-4 mt-8 md:justify-center lg:justify-start">
-                        <button class="btn-sky">Get Started</button>
-                        <button class="btn-slate">View on Github</button>
+                        <a href="/contact" class="btn-sky" wire:navigate>Contact Me</a>
+                        <a href="https://github.com/Elwin-M" class="btn-slate">View my Github</a>
                     </div>
                 </div>
             </div>

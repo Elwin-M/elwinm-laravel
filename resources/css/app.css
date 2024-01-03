@@ -22,19 +22,27 @@
 
     /* Page Contents */
     .content-head-group {
-        @apply space-y-1 mb-9
+        @apply space-y-1 mb-9;
     }
 
     .content-title {
-        @apply text-sm font-medium font-display text-sky-500
+        @apply text-sm font-medium font-display text-sky-500;
     }
 
     .content-subheading {
-        @apply text-3xl tracking-tight font-display text-slate-900 dark:text-white
+        @apply text-3xl tracking-tight font-display text-slate-900 dark:text-white;
     }
 
     .content-main-group {
-        @apply max-w-none dark:text-slate-400
+        @apply max-w-none dark:text-slate-400;
+    }
+
+    .link {
+        @apply font-semibold dark:text-sky-400;
+    }
+
+    .link-underline {
+        @apply no-underline shadow-[inset_0_-2px_0_0_var(--tw-background,#fff),inset_0_calc(-1*(var(--tw-underline-size,4px)+2px))_0_0_var(--tw-underline,theme(colors.sky.300))] hover:[--tw-underline-size:6px] dark:[--tw-background:theme(colors.slate.900)] dark:shadow-[inset_0_calc(-1*var(--tw-underline-size,2px))_0_0_var(--tw-underline,theme(colors.sky.800))] dark:hover:[--tw-underline-size:6px];
     }
 
 }

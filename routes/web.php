@@ -45,7 +45,7 @@ Route::get('/projects', Random::class)->name('elwinm/Projects/Assorted Projects 
 Route::get('/skills-tools', SkillsTools::class)->name('elwinm/Skill And Tools/Skills And Tools');
 
 // Contact
-Route::get('/contact', Contact::class)->name('elwinm/Contact Information/Contact Me');
+Route::get('/contact', Contact::class)->name('elwinm/Contact Information/Get In Touch!');
 
 // Route::get('/404', function () {
 //     return view('404');

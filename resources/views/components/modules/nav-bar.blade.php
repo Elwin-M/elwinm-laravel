@@ -8,7 +8,7 @@
     </div>
     <!-- Logo SVG code -->
     <div class="relative flex items-center flex-grow basis-0">
-        <a href="/" aria-label="Home page">
+        <a href="/" aria-label="Home page" wire:navigate>
             <x-icons.logomark /> <!-- Base logo for mobile -->
             <x-icons.logo /> <!-- Logo with text -->
         </a>

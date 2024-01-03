@@ -11,7 +11,7 @@
             <div x-on:click="mobileMenu = false">
                 <x-icons.hamburger-menu /> <!-- Hamburger menu -->
             </div>
-            <a href="/" class="ml-6" aria-label="Home page">
+            <a href="/" class="ml-6" aria-label="Home page" wire:navigate>
                 <x-icons.logomark /> <!-- Base logo -->
             </a>
         </div>
