@@ -6,10 +6,10 @@
         <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
     </x-modules.title-subtitle>
 
-    <p class="content-main-group">If any of what you saw interests you, feel free to get in contact with me via any of
+    <p class="content-main-large">If any of what you saw interests you, feel free to get in contact with me via any of
         the following:</p>
 
-    <div class="mt-10 space-y-4">
+    <div class="space-y-4">
         <!-- Email -->
         <div class="flex gap-x-4">
             <div class="flex-none">
