@@ -1,4 +1,4 @@
-@section('pageTitle', 'Short')
+@section('pageTitle', 'Elwin\'s Portfolio')
 
 <div>
     <x-modules.title-subtitle>
@@ -6,7 +6,7 @@
         <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
     </x-modules.title-subtitle>
 
-    <p class="content-main-large">
+    <p class="content-main-group">
         As a Full Stack Developer and DevOps enthusiast, I leverage my comprehensive knowledge of software development,
         systems administration, and Agile methodologies to create cutting-edge solutions that impact people's lives and
         revolutionize industries. My continuous drive for learning, ability to solve complex problems, and commitment to

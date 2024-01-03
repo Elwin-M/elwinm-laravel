@@ -1,11 +1,11 @@
-@section('pageTitle', 'Short')
+@section('pageTitle', 'Skills And Tools')
 
 <div>
     <x-modules.title-subtitle>
         {{ $currentPageTitle }}
         <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
     </x-modules.title-subtitle>
-    <p class="content-main-large">
+    <p class="content-main-group">
         These are the list skills and tools I actively use during my developement. CHANGEME
     </p>
     {{-- <p class="content-main-large">
