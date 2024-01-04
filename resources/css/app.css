@@ -30,19 +30,23 @@
     }
 
     .content-subheading {
-        @apply text-3xl tracking-tight font-display text-slate-900 dark:text-white;
+        @apply text-3xl tracking-tight font-display text-white;
+    }
+
+    .content-main-large {
+        @apply max-w-none text-slate-400 text-xl pb-6;
     }
 
     .content-main-group {
-        @apply max-w-none dark:text-slate-400;
+        @apply max-w-none text-slate-400 pb-6;
     }
 
     .link {
-        @apply font-semibold dark:text-sky-400;
+        @apply font-semibold text-sky-400;
     }
 
     .link-underline {
-        @apply no-underline shadow-[inset_0_-2px_0_0_var(--tw-background,#fff),inset_0_calc(-1*(var(--tw-underline-size,4px)+2px))_0_0_var(--tw-underline,theme(colors.sky.300))] hover:[--tw-underline-size:6px] dark:[--tw-background:theme(colors.slate.900)] dark:shadow-[inset_0_calc(-1*var(--tw-underline-size,2px))_0_0_var(--tw-underline,theme(colors.sky.800))] dark:hover:[--tw-underline-size:6px];
+        @apply no-underline [--tw-background:theme(colors.slate.900)] shadow-[inset_0_calc(-1*var(--tw-underline-size,2px))_0_0_var(--tw-underline,theme(colors.sky.800))] hover:[--tw-underline-size:4px];
     }
 
 }

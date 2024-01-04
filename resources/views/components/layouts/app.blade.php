@@ -23,13 +23,13 @@
 
     <div class="relative flex justify-center mx-auto max-w-8xl sm:px-2 lg:px-8 xl:px-12">
         <div class="hidden lg:relative lg:block lg:flex-none">
-            <div class="absolute bottom-0 right-0 hidden w-px h-12 top-16 bg-gradient-to-t from-slate-800 dark:block"></div>
-            <div class="absolute bottom-0 right-0 hidden w-px top-28 bg-slate-800 dark:block"></div>
+            <div class="absolute bottom-0 right-0 block w-px h-12 top-16 bg-gradient-to-t from-slate-800"></div>
+            <div class="absolute bottom-0 right-0 block w-px top-28 bg-slate-800"></div>
             <!-- Left quicklinks -->
             <x-modules.desktop-menu />
         </div>
         <!-- Main body -->
-        <div class="flex-auto max-w-2xl min-w-0 px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16 dark:text-slate-400">
+        <div class="flex-auto max-w-2xl min-w-0 px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16 text-slate-400">
             {{ $slot }}
             <livewire:pagination />
         </div>

@@ -1,4 +1,4 @@
-@section('pageTitle', 'Short')
+@section('pageTitle', 'Contact Information')
 
 <div id="contact">
     <x-modules.title-subtitle>
@@ -9,7 +9,7 @@
     <p class="content-main-group">If any of what you saw interests you, feel free to get in contact with me via any of
         the following:</p>
 
-    <div class="mt-10 space-y-4">
+    <div class="space-y-4">
         <!-- Email -->
         <div class="flex gap-x-4">
             <div class="flex-none">
@@ -33,7 +33,7 @@
                 <span class="sr-only">LinkedIn</span>
                 <x-icons.linkedin />
             </div>
-            <div class="flex gap-2"><a class="link link-underline" href="https://www.linkedin.com/in/elwinwm"
+            <div class="flex gap-2"><a class="link link-underline hover:text-white" href="https://www.linkedin.com/in/elwinwm"
                     target="_blank">Elwin M</a><x-icons.new-tab /></div>
         </div>
         <!-- GitHub -->
@@ -42,7 +42,7 @@
                 <span class="sr-only">GitHub</span>
                 <x-icons.github />
             </div>
-            <div class="flex gap-2"><a class="link link-underline" href="https://github.com/Elwin-M"
+            <div class="flex gap-2"><a class="link link-underline hover:text-white" href="https://github.com/Elwin-M"
                     target="_blank">Elwin M</a><x-icons.new-tab /></div>
         </div>
         <!-- Location -->
