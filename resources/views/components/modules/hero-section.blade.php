@@ -6,7 +6,7 @@
             <div class="relative z-10 md:text-center lg:text-left">
                 <!-- Circles on left -->
                 <img class="absolute -mb-56 opacity-50 bottom-full right-full -mr-72"
-                    src="{{ asset('images/blur-cyan.png') }}" alt="" width="530" height="530" loading="lazy">
+                    src="{{ asset('images/blur-cyan.png') }}" alt="" width="530" height="530">
                 <div class="relative">
                     <!-- Title -->
                     <p
@@ -35,9 +35,9 @@
                 <div class="relative">
                     <!-- Circles on right -->
                     <img class="absolute -right-64 -top-64" src="{{ asset('images/blur-cyan.png') }}" alt=""
-                        width="530" height="530" loading="lazy">
+                        width="530" height="530">
                     <img class="absolute -bottom-40 -right-44" src="{{ asset('images/blur-indigo.png') }}"
-                        alt="" width="567" height="567" loading="lazy">
+                        alt="" width="567" height="567">
                     <div
                         class="absolute inset-0 rounded-2xl bg-gradient-to-tr from-sky-300 via-sky-300/70 to-blue-300 opacity-10 blur-lg">
                     </div>
