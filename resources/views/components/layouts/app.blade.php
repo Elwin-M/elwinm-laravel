@@ -19,6 +19,11 @@
     <!-- Hero section for home page -->
     @if (request()->is('/'))
         <x-modules.hero-section />
+        <script>
+            document.addEventListener('livewire:navigated', () => {
+                Prism.highlightAll();
+            })
+        </script>
     @endif
 
     <div class="relative flex justify-center mx-auto max-w-8xl sm:px-2 lg:px-8 xl:px-12">

@@ -15,25 +15,27 @@
         <div class="flex mt-4 space-x-2 text-xs">
             <!-- Tab 1 -->
             <div x-on:click=" visibleId = 1" class="flex h-6 rounded-full"
-                :class="{ 'p-px font-medium bg-gradient-to-r from-sky-400/30 via-sky-400 to-sky-400/30 ': visibleId === 1 }">
+                :class="{ 'p-px font-medium bg-gradient-to-r from-sky-400/30 via-sky-400 to-sky-400/30': visibleId === 1 }">
                 <div class="flex items-center px-2.5 rounded-full"
                     :class="visibleId === 1 ? ' bg-slate-800 text-sky-300' :
                         'text-slate-500 cursor-pointer hover:bg-slate-800 hover:text-sky-300'">
-                    asdsadsadsadsadsa
+                    code-box.blade.php
                 </div>
             </div>
             <!-- Tab 2 -->
-            <div x-on:click=" visibleId = 2" class="flex h-6 rounded-full"
-                :class="{ 'p-px font-medium bg-gradient-to-r from-sky-400/30 via-sky-400 to-sky-400/30 ': visibleId === 2 }">
+            <div x-on:click=" visibleId = 2, console.log('Hello, Visitor!')" class="flex h-6 rounded-full"
+                :class="{ 'p-px font-medium bg-gradient-to-r from-sky-400/30 via-sky-400 to-sky-400/30': visibleId === 2 }">
+
                 <div class="flex items-center px-2.5 rounded-full"
                     :class="visibleId === 2 ? ' bg-slate-800 text-sky-300' :
                         'text-slate-500 cursor-pointer hover:bg-slate-800 hover:text-sky-300'">
-                    asdsadsadsadsadsa
+                    greetings.js
                 </div>
+
             </div>
         </div>
         <!-- Code box -->
-        <div class="flex items-start px-1 pb-6 mt-6 font-mono text-sm">
+        <div class="flex items-start px-4 pb-6 mt-6 font-mono text-sm">
             <div class="pr-4 border-r select-none border-slate-300/5 text-slate-600">
                 <!-- Line Numbers HTML here -->
                 <div>
@@ -45,23 +47,36 @@
                     <div>06</div>
                     <div>07</div>
                     <div>08</div>
+                    <div>09</div>
                 </div>
             </div>
-            <div class="flex px-4 overflow-x-auto whitespace-nowrap ">
+            <div class="flex overflow-x-auto whitespace-nowrap">
                 <div class="px-4 text-sky-300">
-                    <!-- Code content here -->
+                    <!-- Code content 1 here -->
                     <div x-show="visibleId == 1">
-                        <div>export default { </div>
-                        <div>strategy: 'predictive',</div>
-                        <div>engine: { </div>
-                        <div>cpus: 12, </div>
-                        <div>backups: ['./storage/cache.wtf'], aaaaaaaaaaaaaaaaasssssssssssssssssssss</div>
-                        <div>},</div>
-                        <div>}</div>
+                        <pre>
+<code class="language-markup">&lt;!-- Click the greetings.js tab --&gt;
+&lt;div @click="greet('Visitor'),
+             visibleTab = greetings.js"
+      class="tab-base"
+     :class="{'tab-selected':
+             visibleTab === greetings.js }"&gt;
+    greetings.js
+&lt;/div&gt;</code>
+                        </pre>
                     </div>
+                    <!-- Code content 2 here -->
                     <div x-show="visibleId == 2">
-                        <div>export { </div>
-                        <div>: 'predictive',</div>
+                        <pre>
+<code class="language-javascript">// Check your browser console
+const greet = (name) => {
+    console.log('Hello, ' + name);
+};
+
+const userName = 'Visitor';
+
+// Usage - greet(userName); </code>
+                        </pre>
                     </div>
                 </div>
             </div>
