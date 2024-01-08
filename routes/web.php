@@ -31,9 +31,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', Short::class)->name('elwinm/About Me/Short Version');
 Route::get('/long', Long::class)->name('elwinm/About Me/Long Version');
 // Experience
-Route::get('/sfte', Sfte::class)->name('elwinm/Experience/SFTE - Web Developer');
-Route::get('/stmarys', Stmarys::class)->name('elwinm/Experience/St. Mary\'s - Full Stack Developer');
-Route::get('/elwinm', Elwinm::class)->name('elwinm/Experience/ElwinM - Full Stack Developer');
+Route::get('/sfte-dev', Sfte::class)->name('elwinm/Experience/SFTE - Web Developer');
+Route::get('/stmarys-dev', Stmarys::class)->name('elwinm/Experience/St. Mary\'s - Full Stack Developer'); // Figure out why removing the \ doesn't work
+Route::get('/elwinm-dev', Elwinm::class)->name('elwinm/Experience/ElwinM - Full Stack Developer');
 // Education
 Route::get('/major', Major::class)->name('elwinm/Education (York University)/B.A. Hons: Information Technology');
 Route::get('/minor', Minor::class)->name('elwinm/Education (York University)/Minor: Business Administration');
