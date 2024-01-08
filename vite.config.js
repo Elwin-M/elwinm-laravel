@@ -7,6 +7,9 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
+                'resources/css/fonts.css',
+                'resources/css/prism.css',
+                'resources/js/prism.js'
             ],
             refresh: [
                 ...refreshPaths,
