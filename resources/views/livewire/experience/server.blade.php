@@ -1,4 +1,4 @@
-@section('pageTitle', 'SFTE - Web Developer')
+@section('pageTitle', 'ElwinM - System Administrator')
 
 <div>
     <x-modules.title-subtitle>

@@ -19,9 +19,10 @@
     <!-- Hero section for home page -->
     @if (request()->is('/'))
         <x-modules.hero-section>
-            Elwin <br class="sm:hidden" /> Moolakkattu
+            Elwin <br class="sm:hidden"> Moolakkattu
             <x-slot:description>
-                Something's wrong CHANGEME
+                Welcome to my portfolio! <br>
+                I invite you to explore how I bring ideas to life through captivating digital experiences.
             </x-slot:description>
             <x-slot:buttons>
                 <a href="/contact" class="btn-sky" wire:navigate>Contact Me</a>
