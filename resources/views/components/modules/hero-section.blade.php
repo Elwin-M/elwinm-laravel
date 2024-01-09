@@ -11,17 +11,15 @@
                     <!-- Title -->
                     <p
                         class="inline text-5xl tracking-tight text-transparent bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display">
-                        Elwin <br class="sm:hidden" /> Moolakkattu
+                        {{ $slot }}
                     </p>
                     <!-- Subheading -->
                     <p class="mt-3 text-2xl tracking-tight text-slate-400">
-                        Cache every single thing your app could ever do ahead of time, so your code never even
-                        has to run at all. CHANGEME
+                        {{ $description }}
                     </p>
                     <!-- Buttons -->
                     <div class="flex gap-4 mt-8 md:justify-center lg:justify-start">
-                        <a href="/contact" class="btn-sky" wire:navigate>Contact Me</a>
-                        <a href="https://github.com/Elwin-M" class="btn-slate">View my Github</a>
+                        {{ $buttons }}
                     </div>
                 </div>
             </div>

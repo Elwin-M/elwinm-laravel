@@ -18,7 +18,16 @@
     <x-modules.mobile-menu />
     <!-- Hero section for home page -->
     @if (request()->is('/'))
-        <x-modules.hero-section />
+        <x-modules.hero-section>
+            Elwin <br class="sm:hidden" /> Moolakkattu
+            <x-slot:description>
+                Something's wrong CHANGEME
+            </x-slot:description>
+            <x-slot:buttons>
+                <a href="/contact" class="btn-sky" wire:navigate>Contact Me</a>
+                <a href="https://github.com/Elwin-M" class="btn-slate">View my Github</a>
+            </x-slot:buttons>
+        </x-modules.hero-section>
         <script>
             document.addEventListener('livewire:navigated', () => {
                 Prism.highlightAll();
