@@ -1,5 +1,6 @@
-@extends('errors::minimal')
-
-@section('title', __('Page Expired'))
-@section('code', '419')
-@section('message', __('Page Expired'))
+<x-layouts.error>
+    Page Expired
+    <x-slot:error>
+        {{ $exception->getMessage() }}
+    </x-slot:error>
+</x-layouts.error>

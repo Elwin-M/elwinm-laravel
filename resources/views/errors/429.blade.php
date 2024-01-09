@@ -1,5 +1,6 @@
-@extends('errors::minimal')
-
-@section('title', __('Too Many Requests'))
-@section('code', '429')
-@section('message', __('Too Many Requests'))
+<x-layouts.error>
+    Too Many Requests
+    <x-slot:error>
+        {{ $exception->getMessage() }}
+    </x-slot:error>
+</x-layouts.error>

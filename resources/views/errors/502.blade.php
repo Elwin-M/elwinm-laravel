@@ -1,5 +1,5 @@
 <x-layouts.error>
-    Unauthorized
+    Gateway Error
     <x-slot:error>
         {{ $exception->getMessage() }}
     </x-slot:error>
