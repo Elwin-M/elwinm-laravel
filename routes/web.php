@@ -25,14 +25,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Home Redirect
-// Route::redirect("/","/about-me");
 // About
 Route::get('/', Short::class)->name('elwinm/About Me/Short Version');
 Route::get('/long', Long::class)->name('elwinm/About Me/Long Version');
 // Experience
 Route::get('/sfte-dev', Sfte::class)->name('elwinm/Experience/SFTE - Web Developer');
-Route::get('/stmarys-dev', Stmarys::class)->name('elwinm/Experience/St. Mary\'s - Full Stack Developer'); // Figure out why removing the \ doesn't work
+Route::get('/stmarys-dev', Stmarys::class)->name('elwinm/Experience/St. Mary\'s - Full Stack Developer');
 Route::get('/elwinm-dev', Elwinm::class)->name('elwinm/Experience/ElwinM - Full Stack Developer');
 // Education
 Route::get('/major', Major::class)->name('elwinm/Education (York University)/B.A. Hons: Information Technology');
@@ -43,10 +41,5 @@ Route::get('/elwinm-old', ElwinmOld::class)->name('elwinm/Projects/ElwinM Old We
 Route::get('/projects', Random::class)->name('elwinm/Projects/Assorted Projects And Scripts');
 // Skills And Tools
 Route::get('/skills-tools', SkillsTools::class)->name('elwinm/Skill And Tools/Skills And Tools');
-
 // Contact
 Route::get('/contact', Contact::class)->name('elwinm/Contact Information/Get In Touch!');
-
-// Route::get('/404', function () {
-//     return view('404');
-// });
