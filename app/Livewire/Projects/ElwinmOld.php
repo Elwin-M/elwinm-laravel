@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire\Experience;
+namespace App\Livewire\Projects;
 
 use App\Traits\WithChangePage;
 use Livewire\Component;
@@ -11,6 +11,6 @@ class ElwinmOld extends Component
 
     public function render()
     {
-        return view('livewire.experience.elwinm-old');
+        return view('livewire.projects.elwinm-old');
     }
 }

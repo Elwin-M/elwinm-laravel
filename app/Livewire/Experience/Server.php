@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire\Projects;
+namespace App\Livewire\Experience;
 
 use App\Traits\WithChangePage;
 use Livewire\Component;
@@ -11,6 +11,6 @@ class Server extends Component
 
     public function render()
     {
-        return view('livewire.projects.server');
+        return view('livewire.experience.server');
     }
 }
