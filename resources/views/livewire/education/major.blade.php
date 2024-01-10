@@ -7,7 +7,9 @@
     </x-modules.title-subtitle>
 
     <p class="content-main-group">
-        CHANGEME
+        Embark on my Information Technology journey, where technical prowess meets innovation.
+        Explore my experiences and key takeaways in the world of IT,
+        showcasing how I leverage cutting-edge technology to solve complex challenges and drive digital transformation.
     </p>
     <!-- Start -->
     <x-modules.description-list-main-outer>
@@ -16,46 +18,25 @@
             <x-slot:title> Experience </x-slot:title>
             <!-- List -->
             <x-modules.description-list-item>
-                Acquired knowledge and skills in areas such as database design and management, web development, networking, and security
+                Mastered diverse skills in database design, web development, networking, and security domains, contributing to a comprehensive understanding of IT fundamentals
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Acquired knowledge of web server management and troubleshooting
+                Showcased adeptness in web server management, troubleshooting, and proficient utilization of version control tools like Git and GitHub
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Developed a strong foundation in programming and software development principles and techniques
+                Cultivated a robust foundation in programming, software development principles, and techniques, alongside honing knowledge management practices encompassing acquisition, storage, retrieval, and dissemination of information
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Developed an understanding of knowledge management principles and practices, including knowledge acquisition, storage, retrieval, and dissemination
+                Enhanced communication proficiency through technical writing and presentation skills, facilitating effective conveyance of complex technical information
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Development of technical writing and presentation skills
+                Delved into the dynamic impact of information technology on organizational behavior, unraveling its effects on culture, structure, and strategy. Also, gained exposure to project management methodologies, team collaboration tools, and the design and development of enterprise systems such as ERP, SCM, CRM, and BI
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Experience with version control tools like Git and GitHub
+                Explored the nuances of project management throughout the project lifecycle—from initiation to closure—while also delving into human-computer interaction principles, including user interface design, usability testing, accessibility, and user experience (UX) design
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Experience with virtual machines and containerization using Docker and Oracle VirtualBox
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Explored the impact of information technology on organizational behaviour, including the effects of IT on organizational culture, structure, and strategy
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Gained experience working on group projects and collaborating with peers
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Gained exposure to various project management and team collaboration tools
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Gained knowledge and skills in the design and development of enterprise systems such as enterprise resource planning (ERP), supply chain management (SCM), customer relationship management (CRM), and business intelligence (BI)
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Learned about project management principles and practices as applied to information technology projects, including project initiation, planning, execution, control, and closure
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Learning about human-computer interaction principles and practices, including user interface design, usability testing, accessibility, and user experience (UX) design
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Studied the principles and practices of information technology security, including threat analysis, risk management, access control, cryptography, security policies, and security audits
+                Engaged in the study of information technology security principles and practices, encompassing threat analysis, risk management, access control, cryptography, security policies, and security audits
             </x-modules.description-list-item>
         </x-modules.description-list-main-inner>
         <!-- Second Box -->
@@ -63,46 +44,34 @@
             <x-slot:title> Takeaways </x-slot:title>
             <!-- List -->
             <x-modules.description-list-item>
-                Communication skills, both written and verbal, with the ability to effectively communicate technical information to both technical and non-technical audiences
+                Cultivated effective communication skills, proficient in articulating technical concepts to both technical and non-technical audiences
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Database design and management skills, with the ability to design and implement complex database systems
+                Proficiency in database design and management, empowering the creation and implementation of intricate database systems
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Enterprise systems design and development skills, with the ability to analyze business processes and design and implement enterprise systems to improve organizational efficiency and effectiveness
+                Expertise in enterprise systems design and development, adept at analyzing business processes and implementing systems for organizational enhancement
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Experience working with various programming languages such as Java, Python, PHP, HTML/CSS
+                Mastery in programming languages such as Java, Python, PHP, and HTML/CSS, contributing to a versatile skill set
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Human-computer interaction design and development skills, with the ability to design effective and efficient user interfaces and evaluate their usability and user experience
+                Profound knowledge management skills applied in designing and implementing effective knowledge management systems
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Knowledge management skills, with the ability to design and implement effective knowledge management systems
+                Acquired comprehensive knowledge of database management systems like Oracle DBMS and Microsoft Access, along with familiarity with various operating systems including Linux, Windows, and MacOS
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Knowledge of database management systems including Oracle DBMS, and Microsoft Access
+                Sharpened problem-solving and critical thinking skills, instrumental in analyzing intricate problems and devising effective solutions
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Knowledge of various operating systems including Linux, Windows, and MacOS
+                Proficient project management skills, overseeing projects from initiation to closure while effectively managing project teams
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Problem-solving and critical thinking skills, with the ability to analyze complex problems and develop effective solutions
+                Proficiency in data analysis utilizing tools such as Excel, MATLAB, and Python, along with competence in various software tools like the Microsoft Suite and Wireshark
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Programming skills in languages such as Java, Python, and PHP
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Project management skills, with the ability to manage projects from initiation to closure, and to effectively manage project teams
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Skills in data analysis using tools such as Excel, MATLAB, and Python
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Skills in using various software tools like the Microsoft Suite, and Wireshark
-            </x-modules.description-list-item>
-            <x-modules.description-list-item>
-                Understanding of systems design and architecture, as well as UML diagramming
+                Sound understanding of systems design and architecture, complemented by proficiency in UML diagramming and software tools application
             </x-modules.description-list-item>
         </x-modules.description-list-main-inner>
     </x-modules.description-list-main-outer>

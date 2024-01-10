@@ -7,7 +7,9 @@
     </x-modules.title-subtitle>
 
     <p class="content-main-group">
-        CHANGEME
+        Discover the intersection of business strategy and technological innovation within my Business Administration column.
+        Explore how my insights from this minor complement my technical expertise,
+        showcasing how I merge business acumen with technology to create impactful solutions in the digital landscape.
     </p>
     <!-- Start -->
     <x-modules.description-list-main-outer>
@@ -16,19 +18,25 @@
             <x-slot:title> Experience </x-slot:title>
             <!-- List -->
             <x-modules.description-list-item>
-                Broad understanding of how businesses operate and how to manage different aspects of a business
+                Gained a comprehensive understanding of business operations and management principles, focusing on planning, organizing, leading, and controlling within diverse business settings
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Examining the fundamentals of management, including planning, organizing, leading, and controlling
+                Explored multifaceted marketing concepts such as segmentation, targeting, positioning, branding, and promotion to comprehend their strategic implications in business contexts
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Exploring various marketing concepts such as segmentation, targeting, positioning, branding, and promotion
+                Studied foundational principles and practices of accounting, including the analysis of financial statements, balance sheets, income statements, and cash flow statements
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Learning about the principles and practices of accounting, including financial statements, balance sheets, income statements, and cash flow statements
+                Delved into the basics of finance, encompassing the time value of money, financial analysis techniques, and risk management strategies
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Studying the basics of finance, including the time value of money, financial analysis, and risk management
+                Explored operational frameworks focusing on optimizing business processes, streamlining workflows, and enhancing operational efficiency
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                Investigated strategic management principles, including competitive analysis, strategic planning, and implementation, fostering a deeper understanding of long-term business planning
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                Examined organizational behavior theories and practices, gaining insights into employee motivation, leadership styles, and team dynamics within workplace environments
             </x-modules.description-list-item>
         </x-modules.description-list-main-inner>
         <!-- Second Box -->
@@ -36,16 +44,25 @@
             <x-slot:title> Takeaways </x-slot:title>
             <!-- List -->
             <x-modules.description-list-item>
-                Create and manage a budget, assess investment opportunities, and analyze financial risks
+                Proficiency in budget creation, investment assessment, and analysis of financial risks, contributing to effective financial management skills
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Designed and implemented effective marketing strategies that target specific customer segments
+                Designed and executed targeted marketing strategies aimed at specific customer segments, fostering an understanding of customer-centric approaches
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                Management skills of people and resources to achieve organizational objectives
+                Developed adept management skills for overseeing people and resources, crucial for achieving organizational objectives efficiently
             </x-modules.description-list-item>
             <x-modules.description-list-item>
-                The ability to analyze financial statements and use financial ratios to evaluate a company's performance
+                Acquired the ability to analyze financial statements and utilize financial ratios to evaluate a company's performance, aiding in informed decision-making and strategic planning
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                Strategic decision-making abilities fostered by understanding competitive analysis and strategic planning, enabling effective long-term planning and implementation
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                Enhanced skills in managing organizational behavior, facilitating effective team leadership, and fostering a productive work environment
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                Proficiency in optimizing business processes, streamlining workflows, and enhancing operational efficiency through operational frameworks
             </x-modules.description-list-item>
         </x-modules.description-list-main-inner>
     </x-modules.description-list-main-outer>

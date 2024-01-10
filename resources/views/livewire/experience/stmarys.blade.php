@@ -7,7 +7,7 @@
     </x-modules.title-subtitle>
 
     <p class="content-main-group">
-        CHANGEME
+        Stepping into the realm of Full Stack Development, I've engineered and maintained bespoke web servers, crafted seamless RESTful APIs, and managed databases to uphold data integrity and security. Notably, I single-handedly designed and oversaw the development of a web page tailored for a kiosk-style environment at a church. This sleek, responsive page features three carousels displaying rotating images, essential information (such as Birthdays, Wedding Anniversaries, and Sponsors), and a News section. My active involvement includes continuous maintenance, ensuring updates align with the members' requirements.
     </p>
         <!-- Start -->
         <x-modules.description-list-main-outer>
@@ -22,25 +22,19 @@
                     Developed and consumed RESTful APIs for seamless data integration across microservices
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Designing and managing relational and non-relational databases, ensuring data consistency, integrity, and security
+                    Designed and managed relational databases that ensure data consistency, integrity, and security, specifically for content displayed on the website
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Built and maintained a Kubernetes-based compute platform, streamlining deployment processes and practicing the principles of containerization technologies in a production environment
+                    Practiced continuous delivery methodologies to ensure efficient, reliable, and safe value delivery to users, maintaining ongoing improvements
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Practiced continuous delivery, ensuring efficient, reliable, and safe value delivery to users
+                    Actively contributed to routine system maintenance, upgrades, and migrations, ensuring reliability and system integrity for the website
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Participated in a flexible on-call rotation, managing, and troubleshooting all types of issues
+                    Demonstrated expertise in managing the reliability, security, and integrity of the organization's Linux infrastructure, including the website deployment
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    BPerformed routine system maintenance, upgrades, and migrations while maintaining system reliability and integrityroad
-                </x-modules.description-list-item>
-                <x-modules.description-list-item>
-                    Managed the reliability, security, and integrity of the organization's Linux infrastructure, demonstrating my ability to operate in a cloud-based environment
-                </x-modules.description-list-item>
-                <x-modules.description-list-item>
-                    Worked on the continuous improvement of the developer experience by providing tools, libraries, automation, services, and establishing efficient software engineering practices
+                    Established efficient software engineering practices and tools, contributing to the continuous improvement of the developer experience
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
                     Played a lead role in project milestones, and features, showcasing my skills in project management and my ability to contribute to the cultural, process, and changes within the team
@@ -48,34 +42,31 @@
                 <x-modules.description-list-item>
                     Utilized my strong communication skills to mentor other team members, write comprehensive documentation, and actively participate in meetings to ensure effective knowledge transfer
                 </x-modules.description-list-item>
-                <x-modules.description-list-item>
-                    Collaborated with others across the organization to solve problems and build better processes, systems, and software, enhancing the efficiency of cross-functional teams
-                </x-modules.description-list-item>
             </x-modules.description-list-main-inner>
             <!-- Second Box -->
             <x-modules.description-list-main-inner>
                 <x-slot:title> Achievements </x-slot:title>
                 <!-- List -->
                 <x-modules.description-list-item>
-                    Maintained a strong understanding of web development trends and best practices
+                    Maintained an updated understanding of web development trends, leading to consistent delivery of a superior user experience
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Earned high user satisfaction, reflecting superior user experience design and website functionality
+                    Earned high user satisfaction through superior design and functionality of the church's kiosk-style website
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Consistently delivered clean, robust code, demonstrating a strong grasp of programming principles
+                    Consistently delivered clean, robust code, showcasing a strong grasp of programming principles applied to the website's development
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Built and managed a web server from scratch, showcasing my technical proficiency and understanding of cloud-based Linux infrastructure
+                    Built and managed the church's web server from scratch, demonstrating technical proficiency in cloud-based Linux infrastructure
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Enhanced website performance through optimal coding strategies, ensuring fast load times and a smooth user experience
+                    Enhanced website performance significantly through strategic coding strategies, ensuring optimal load times and user experience
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Effectively eliminated repetitive tasks through the development of automation scripts, enhancing operational efficiency
+                    Implemented automation scripts to eliminate repetitive tasks, enhancing operational efficiency for ongoing website maintenance
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
-                    Successfully led multiple projects to completion, contributing to the organization's growth and user satisfaction
+                    Successfully led multiple projects, including the church's website, contributing to organizational growth and user satisfaction
                 </x-modules.description-list-item>
             </x-modules.description-list-main-inner>
         </x-modules.description-list-main-outer>

@@ -7,19 +7,29 @@
     </x-modules.title-subtitle>
 
     <p class="content-main-group">
-    Welcome to my portfolio!
-    As a recent graduate with an Honours degree in Information Technology and a minor in Business Administration,
-    coupled with practical experience in web development, I am excited to showcase my passion for creating innovative digital solutions.
-    Explore my projects and see how my technical expertise and business acumen converge to deliver impactful web solutions.
+        As a graduate armed with an Honours degree in Information Technology,
+        complemented by a minor in Business Administration and practical experience in web development,
+        I thrive on showcasing my passion for crafting innovative digital solutions.
+        Explore my projects to witness the convergence of my technical expertise and business acumen,
+        delivering impactful web solutions that drive change.
     </p>
 
     <p class="content-main-group">
-        As a Full Stack Developer and DevOps enthusiast, I leverage my comprehensive knowledge of software development,
-        systems administration, and Agile methodologies to create cutting-edge solutions that impact people's lives and
-        revolutionize industries. My continuous drive for learning, ability to solve complex problems, and commitment to
-        community success define my journey in this fast-paced tech industry.
+        Identified as a Full Stack Developer and DevOps enthusiast,
+        I merge my extensive knowledge in software development, systems administration,
+        and Agile methodologies to engineer cutting-edge solutions.
+        Within this fast-paced tech industry, my relentless pursuit of knowledge, adept problem-solving skills,
+        and commitment to community success define my journey, constantly shaping impactful and transformative technological innovations.
     </p>
 
+    <!-- Division -->
+    <x-modules.bar-horizontal />
+    <h2 class="pb-4 text-2xl tracking-tight text-white font-display">
+        Quick Links
+    </h2>
+    <p class="content-main-group">
+        Click to delve into my professional journey, academic degree, and projects.
+    </p>
     <x-modules.quick-links-box>
         <x-modules.quick-links-box-item :link="'elwinm/Experience/SFTE - Web Developer'">
             Web Developer
