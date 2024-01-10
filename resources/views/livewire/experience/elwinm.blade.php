@@ -1,13 +1,14 @@
-@section('pageTitle', 'ElwinM - Full Stack Developer')
+@section('pageTitle', $currentPageSub)
 
 <div>
     <x-modules.title-subtitle>
         {{ $currentPageTitle }}
         <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
+        <x-slot:date> 2023 - PRESENT</x-slot:date>
     </x-modules.title-subtitle>
 
     <p class="content-main-group">
-        Having immersed myself in Full Stack Development, I spearheaded the creation of a robust website from inception to execution. Leveraging Laravel 10, Alpine.js, Prism.js, Tailwind, and Livewire 3, I orchestrated an innovative platform fortified by Docker containerization and Nginx server configuration. Through meticulous attention to detail, I ensured SSL integration, database implementation, and the seamless utilization of Cloudflare as a CDN, optimizing performance and security.
+        Having immersed myself in full-stack development, I spearheaded the creation of a robust website from inception to execution. Leveraging Laravel 10, Alpine.js, Prism.js, Tailwind, and Livewire 3, I orchestrated an innovative platform fortified by Docker containerization and Nginx server configuration. Through meticulous attention to detail, I ensured SSL integration, database implementation, and the seamless utilization of Cloudflare as a CDN, optimizing performance and security.
     </p>
         <!-- Start -->
         <x-modules.description-list-main-outer>

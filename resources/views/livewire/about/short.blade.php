@@ -8,16 +8,16 @@
 
     <p class="content-main-group">
         As a graduate armed with an Honours degree in Information Technology,
-        complemented by a minor in Business Administration and practical experience in web development,
+        complemented by a Minor in Business Administration and practical experience in web development,
         I thrive on showcasing my passion for crafting innovative digital solutions.
         Explore my projects to witness the convergence of my technical expertise and business acumen,
         delivering impactful web solutions that drive change.
     </p>
 
     <p class="content-main-group">
-        Identified as a Full Stack Developer and DevOps enthusiast,
+        Identified as a full-stack developer and DevOps enthusiast,
         I merge my extensive knowledge in software development, systems administration,
-        and Agile methodologies to engineer cutting-edge solutions.
+        and agile methodologies to engineer cutting-edge solutions.
         Within this fast-paced tech industry, my relentless pursuit of knowledge, adept problem-solving skills,
         and commitment to community success define my journey, constantly shaping impactful and transformative technological innovations.
     </p>
@@ -38,8 +38,8 @@
             </x-slot:description>
         </x-modules.quick-links-box-item>
 
-        <x-modules.quick-links-box-item :link="'elwinm/Experience/St. Mary\'s - Full Stack Developer'">
-            Full Stack Developer
+        <x-modules.quick-links-box-item :link="'elwinm/Experience/St. Mary\'s - Full-Stack Developer'">
+            Full-Stack Developer
             <x-slot:description>
                 2020 - 2023 St. Mary's S.O.C.
             </x-slot:description>
@@ -59,8 +59,8 @@
             </x-slot:description>
         </x-modules.quick-links-box-item>
 
-        <x-modules.quick-links-box-item :link="'elwinm/Experience/ElwinM - Full Stack Developer'">
-            Portfolio - Full Stack Developer
+        <x-modules.quick-links-box-item :link="'elwinm/Experience/ElwinM - Full-Stack Developer'">
+            Portfolio - Full-Stack Developer
             <x-slot:description>
                 elwinm.ca and old.elwinm.ca portfolio
             </x-slot:description>

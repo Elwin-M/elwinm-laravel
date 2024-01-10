@@ -1,9 +1,10 @@
-@section('pageTitle', 'Business Administration - Minor')
+@section('pageTitle', $currentPageSub)
 
 <div>
     <x-modules.title-subtitle>
         {{ $currentPageTitle }}
-        <x-slot:sub> {{ $currentPageSub }} (2016 - 2021) </x-slot:sub>
+        <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
+        <x-slot:date> 2016 - 2021</x-slot:date>
     </x-modules.title-subtitle>
 
     <p class="content-main-group">

@@ -1,4 +1,4 @@
-@section('pageTitle', 'Projects And Scripts')
+@section('pageTitle', $currentPageSub)
 
 <div>
     <x-modules.title-subtitle>

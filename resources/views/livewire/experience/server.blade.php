@@ -1,9 +1,10 @@
-@section('pageTitle', 'ElwinM - System Administrator')
+@section('pageTitle', $currentPageSub)
 
 <div>
     <x-modules.title-subtitle>
         {{ $currentPageTitle }}
         <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
+        <x-slot:date> 2019 - PRESENT</x-slot:date>
     </x-modules.title-subtitle>
 
     <p class="content-main-group">

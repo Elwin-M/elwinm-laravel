@@ -1,9 +1,10 @@
-@section('pageTitle', 'ElwinM Old Portfolio')
+@section('pageTitle', $currentPageSub)
 
 <div>
     <x-modules.title-subtitle>
         {{ $currentPageTitle }}
         <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
+        <x-slot:date> 2019 - 2023</x-slot:date>
     </x-modules.title-subtitle>
     <div class="flex gap-x-4">
         <div class="flex-none">
@@ -21,9 +22,7 @@
     </p>
 
     <x-modules.bar-horizontal />
-    <h2 class="pb-4 text-2xl tracking-tight text-white font-display">
-        Description
-    </h2>
+
     <p class="pt-4 content-main-group">
         <span class="text-base font-semibold leading-6 text-white">Technologies Used:</span> LAMP Stack, HTML, CSS, JS
     </p>
@@ -81,34 +80,15 @@
     </p>
 
     <x-modules.bar-horizontal />
-    <h2 class="pb-4 text-2xl tracking-tight text-white font-display">
-        Screenshot
+    <h2 class="pt-4 text-2xl tracking-tight text-white font-display">
+        Image of old website
     </h2>
 
-    <div class="" x-data="{ dropdown: false }">
-        <!-- Expand/collapse -->
-        <div @click="dropdown = !dropdown" class="hover:cursor-pointer">
-            <div class="flex items-start justify-between w-full py-2 text-left text-white border-t border-slate-800"
-                aria-controls="faq-0" aria-expanded="false">
-                <span class="text-base font-semibold leading-7">Click to expand screenshot</span>
-                <span class="flex items-center ml-6 h-7">
-                    <!-- Plus icon -->
-                    <svg x-cloak x-show="!dropdown" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                    </svg>
-                    <!-- Minus icon -->
-                    <svg x-cloak x-show="dropdown" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                    </svg>
-                </span>
-            </div>
-        </div>
-        <!-- Actual dropdown -->
-        <div x-cloak x-show="dropdown" class="px-4 mt-2">
-            <img class="a" src="{{ asset('images/old.elwinm.ca.png') }}" alt="Old elwinm website screenshot"
+    <x-modules.dropdown>
+        Click to show image (bright white page)
+        <x-slot:content>
+            <img class="rounded-md" src="{{ asset('images/old.elwinm.ca.png') }}" alt="Old elwinm website screenshot"
                 width="full">
-        </div>
-    </div>
+        </x-slot:content>
+    </x-modules.dropdown>
 </div>

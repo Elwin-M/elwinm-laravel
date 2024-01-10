@@ -1,4 +1,4 @@
-@section('pageTitle', 'Contact Information')
+@section('pageTitle', $currentPageTitle)
 
 <div id="contact">
     <x-modules.title-subtitle>

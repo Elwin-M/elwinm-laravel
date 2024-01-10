@@ -1,4 +1,4 @@
-@section('pageTitle', 'About Me - Long Version')
+@section('pageTitle', $currentPageTitle . ' - ' . $currentPageSub)
 
 <div>
     <x-modules.title-subtitle>
@@ -7,8 +7,8 @@
     </x-modules.title-subtitle>
 
     <p class="content-main-group">
-        As an accomplished Full Stack Developer, DevOps enthusiast, and AI aspirant, I hold a B.A. Honours in
-        Information Technology and a minor in Business Administration from York University. My experience spans across
+        As an accomplished full-stack developer, DevOps enthusiast, and AI aspirant, I hold a B.A. Honours in
+        Information Technology and a Minor in Business Administration from York University. My experience spans across
         software development, systems analysis, and project management, bolstered by a robust technical skillset in web
         development, system administration, networking, and database creation and management. My hands-on experience
         with Docker, Kubernetes, REST APIs, and Git, along with my proficiency in Java, Python, PHP, and other
