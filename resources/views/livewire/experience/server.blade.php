@@ -34,6 +34,21 @@
                 <x-modules.description-list-item>
                     Extended capabilities by integrating Dynamic DNS, Cloudflare, and Let’s Encrypt, enhancing reliability and professionalization of services
                 </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Led the comprehensive planning of server migration, outlining the transition from Apache to Nginx, decoupling joint websites, and strategizing the relocation of hardware and the database server
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Successfully separated joint websites into individual entities, ensuring smooth functionality and independent operation after migration
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Implemented Nginx configuration settings, optimizing server performance and ensuring compatibility with the new environment
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Orchestrated the seamless transition of the database server, overseeing the transfer of data and ensuring data integrity throughout the migration process
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Managed the relocation of hardware, coordinating the physical movement of server components to the new environment while minimizing downtime
+                </x-modules.description-list-item>
             </x-modules.description-list-main-inner>
             <!-- Second Box -->
             <x-modules.description-list-main-inner>
@@ -56,6 +71,21 @@
                 </x-modules.description-list-item>
                 <x-modules.description-list-item>
                     Implemented comprehensive system monitoring and alert mechanisms, proactively identifying and resolving potential issues, ensuring minimal downtime and optimal system performance
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Executed a flawless transition from Apache to Nginx, enhancing server efficiency, performance, and securit
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Accomplished the decoupling of joint websites, providing each entity with increased autonomy and independent functionality
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Achieved a seamless transition of the database server, ensuring the integrity of data during the migration process
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Successfully managed the relocation of server hardware, minimizing downtime and ensuring a smooth transition to the new physical environment
+                </x-modules.description-list-item>
+                <x-modules.description-list-item>
+                    Implemented Nginx configurations that resulted in improved server performance, optimizing resource utilization for enhanced efficiency
                 </x-modules.description-list-item>
             </x-modules.description-list-main-inner>
         </x-modules.description-list-main-outer>
