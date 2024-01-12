@@ -80,14 +80,14 @@
     </p>
 
     <x-modules.bar-horizontal />
-    <h2 class="pt-4 text-2xl tracking-tight text-white font-display">
+    <h2 class="py-4 text-2xl tracking-tight text-white font-display">
         Image of old website
     </h2>
 
     <x-modules.dropdown>
         Click to show image (bright white page)
         <x-slot:content>
-            <img class="rounded-md" src="{{ asset('images/old.elwinm.ca.png') }}" alt="Old elwinm website screenshot"
+            <img class="pb-6 rounded-md" src="{{ asset('images/old.elwinm.ca.png') }}" alt="Old elwinm website screenshot"
                 width="full">
         </x-slot:content>
     </x-modules.dropdown>
