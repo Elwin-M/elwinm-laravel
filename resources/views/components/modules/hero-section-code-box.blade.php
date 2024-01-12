@@ -48,6 +48,7 @@
                     <div>07</div>
                     <div>08</div>
                     <div>09</div>
+                    <div x-show="visibleId == 1" class="lg:hidden">10</div>
                 </div>
             </div>
             <div class="flex overflow-x-auto whitespace-nowrap">
@@ -63,7 +64,7 @@
              visibleTab === greetings.js }"&gt;
     greetings.js
 &lt;/div&gt;</code>
-                        </pre>
+                        </pre><div class="lg:hidden" style="color:#8292a2;">&lt;!-- My website is best viewed on desktop --&gt;</div>
                     </div>
                     <!-- Code content 2 here -->
                     <div x-show="visibleId == 2">
