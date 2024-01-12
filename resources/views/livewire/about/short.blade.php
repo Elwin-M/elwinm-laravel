@@ -7,7 +7,7 @@
     </x-modules.title-subtitle>
 
     <p class="content-main-group">
-        As a graduate armed with an Honours degree in Information Technology,
+        Armed with an Honours degree in Information Technology,
         complemented by a Minor in Business Administration and practical experience in web development,
         I thrive on showcasing my passion for crafting innovative digital solutions.
         Explore my projects to witness the convergence of my technical expertise and business acumen,
