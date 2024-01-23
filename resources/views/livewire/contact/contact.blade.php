@@ -10,6 +10,7 @@
         the following:</p>
 
     <div class="space-y-4">
+        <x-modules.resume />
         <!-- Email -->
         <div class="flex gap-x-4">
             <div class="flex-none">

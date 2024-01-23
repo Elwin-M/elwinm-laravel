@@ -5,8 +5,8 @@
         {{ $currentPageTitle }}
         <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
     </x-modules.title-subtitle>
-
-    <p class="content-main-group">
+    <x-modules.resume />
+    <p class="pt-4 content-main-group">
         Armed with an Honours degree in Information Technology,
         complemented by a Minor in Business Administration and practical experience in web development,
         I thrive on showcasing my passion for crafting innovative digital solutions.
