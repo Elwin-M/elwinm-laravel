@@ -87,8 +87,10 @@
     <x-modules.dropdown>
         Click to show image (bright white page)
         <x-slot:content>
-            <img class="pb-6 rounded-md" src="{{ asset('images/old.elwinm.ca.png') }}" alt="Old elwinm website screenshot"
-                width="full">
+            <div class="pb-6">
+                <img class="rounded-md" src="{{ asset('images/old.elwinm.ca.png') }}"
+                    alt="Old elwinm website screenshot" width="full">
+            </div>
         </x-slot:content>
     </x-modules.dropdown>
 </div>
