@@ -7,7 +7,7 @@
     </x-modules.title-subtitle>
 
     <p class="content-main-group">
-        As an accomplished full-stack developer, DevOps enthusiast, and AI aspirant, I hold a B.A. Honours in
+        As an accomplished full-stack developer, DevOps engineer, and AI aspirant, I hold a B.A. Honours in
         Information Technology and a Minor in Business Administration from York University. My experience spans across
         software development, systems analysis, and project management, bolstered by a robust technical skillset in web
         development, system administration, networking, and database creation and management. My hands-on experience
