@@ -15,7 +15,7 @@
     </p>
 
     <p class="content-main-group">
-        Identified as a full-stack developer and DevOps enthusiast,
+        Identified as a full-stack developer and DevOps engineer,
         I merge my extensive knowledge in software development, systems administration,
         and agile methodologies to engineer cutting-edge solutions.
         Within this fast-paced tech industry, my relentless pursuit of knowledge, adept problem-solving skills,
@@ -31,6 +31,13 @@
         Click to delve into my professional journey, academic degree, and projects.
     </p>
     <x-modules.quick-links-box>
+        <x-modules.quick-links-box-item :link="'elwinm/Experience/St. Mary\'s - Full-Stack Developer & DevOps Engineer'">
+            Full-Stack Developer & DevOps Engineer
+            <x-slot:description>
+                2024 - PRESENT St. Mary's S.O.C.
+            </x-slot:description>
+        </x-modules.quick-links-box-item>
+
         <x-modules.quick-links-box-item :link="'elwinm/Experience/SFTE - Web Developer'">
             Web Developer
             <x-slot:description>
@@ -38,8 +45,8 @@
             </x-slot:description>
         </x-modules.quick-links-box-item>
 
-        <x-modules.quick-links-box-item :link="'elwinm/Experience/St. Mary\'s - Full-Stack Developer'">
-            Full-Stack Developer
+        <x-modules.quick-links-box-item :link="'elwinm/Experience/St. Mary\'s - Full-Stack Developer & System Administrator'">
+            Full-Stack Developer & System Administrator
             <x-slot:description>
                 2020 - 2023 St. Mary's S.O.C.
             </x-slot:description>
