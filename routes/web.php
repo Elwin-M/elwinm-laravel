@@ -47,3 +47,6 @@ Route::get('/projects', Random::class)->name('elwinm/Projects/Assorted Projects 
 Route::get('/skills-tools', SkillsTools::class)->name('elwinm/Skill And Tools/Skills And Tools');
 // Contact
 Route::get('/contact', Contact::class)->name('elwinm/Contact Information/Get In Touch!');
+
+// Redirect
+Route::redirect('/resume', '/docs/Elwin_Moolakkattu_Resume.pdf');
