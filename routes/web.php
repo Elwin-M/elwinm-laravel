@@ -15,6 +15,7 @@ use App\Livewire\Projects\ElwinmOld;
 use App\Livewire\Projects\Random;
 use App\Livewire\SkillsTools\SkillsTools;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\View;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,3 +51,5 @@ Route::get('/contact', Contact::class)->name('elwinm/Contact Information/Get In 
 
 // Redirect
 Route::redirect('/resume', '/docs/Elwin_Moolakkattu_Resume.pdf');
+
+Route::View('/403', 'livewire.errors.403');
