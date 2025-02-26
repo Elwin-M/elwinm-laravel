@@ -12,11 +12,11 @@ use App\Livewire\Experience\Server;
 use App\Livewire\Experience\Sfte;
 use App\Livewire\Experience\Stmarys;
 use App\Livewire\Experience\StmarysDevOps;
+use App\Livewire\Projects\StmarysComparison;
 use App\Livewire\Projects\ElwinmOld;
 use App\Livewire\Projects\Random;
 use App\Livewire\SkillsTools\SkillsTools;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\View;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,6 +44,7 @@ Route::get('/part-time', PartTime::class)->name('elwinm/Experience/Part Time Exp
 Route::get('/major', Major::class)->name('elwinm/Education (York University)/B.A. Hons: Information Technology');
 Route::get('/minor', Minor::class)->name('elwinm/Education (York University)/Minor: Business Administration');
 // Projects
+Route::get('/stmarys-comparison', StmarysComparison::class)->name('elwinm/Projects/St. Mary\'s Old vs. New');
 Route::get('/elwinm-old', ElwinmOld::class)->name('elwinm/Projects/ElwinM Old Website And Server');
 Route::get('/projects', Random::class)->name('elwinm/Projects/Assorted Projects And Scripts');
 // Skills And Tools
