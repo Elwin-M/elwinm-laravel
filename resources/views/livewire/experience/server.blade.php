@@ -4,7 +4,7 @@
     <x-modules.title-subtitle>
         {{ $currentPageTitle }}
         <x-slot:sub> {{ $currentPageSub }} </x-slot:sub>
-        <x-slot:date> 2019 - PRESENT</x-slot:date>
+        <x-slot:date> 2019 - PRESENT | PASSION PROJECT</x-slot:date>
     </x-modules.title-subtitle>
 
     <p class="content-main-group">

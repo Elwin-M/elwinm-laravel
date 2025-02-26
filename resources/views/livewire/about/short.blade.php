@@ -31,24 +31,45 @@
         Click to delve into my professional journey, academic degree, and projects.
     </p>
     <x-modules.quick-links-box>
+        <x-modules.quick-links-box-item :link="'elwinm/Experience/Rheem Canada - Warranty Administrator'">
+            Warranty Administrator
+            <x-slot:description>
+                04/2024 - 12/2024 Rheem Canada </br> CONTRACT
+            </x-slot:description>
+        </x-modules.quick-links-box-item>
+
         <x-modules.quick-links-box-item :link="'elwinm/Experience/St. Mary\'s - Full-Stack Developer & DevOps Engineer'">
             Full-Stack Developer & DevOps Engineer
             <x-slot:description>
-                2024 - PRESENT St. Mary's S.O.C.
+                01/2024 - 04/2024 St. Mary's S.O.C. </br> CONTRACT
             </x-slot:description>
         </x-modules.quick-links-box-item>
 
         <x-modules.quick-links-box-item :link="'elwinm/Experience/SFTE - Web Developer'">
             Web Developer
             <x-slot:description>
-                2023 - 2023 Sweets From The Earth
+                08/2023 - 11/2023 Sweets From The Earth </br> CONTRACT
             </x-slot:description>
         </x-modules.quick-links-box-item>
 
         <x-modules.quick-links-box-item :link="'elwinm/Experience/St. Mary\'s - Full-Stack Developer & System Administrator'">
             Full-Stack Developer & System Administrator
             <x-slot:description>
-                2020 - 2023 St. Mary's S.O.C.
+                01/2020 - 08/2023 St. Mary's S.O.C. </br> VOLUNTEER
+            </x-slot:description>
+        </x-modules.quick-links-box-item>
+        
+        <x-modules.quick-links-box-item :link="'elwinm/Experience/ElwinM - Full-Stack Developer'">
+            Portfolio - Full-Stack Developer
+            <x-slot:description>
+                elwinm.ca and old.elwinm.ca portfolio </br> PASSION PROJECT
+            </x-slot:description>
+        </x-modules.quick-links-box-item>
+
+        <x-modules.quick-links-box-item :link="'elwinm/Experience/ElwinM - System Administrator'">
+            Portfolio - System Administrator
+            <x-slot:description>
+                Truenas Scale server management </br> PASSION PROJECT
             </x-slot:description>
         </x-modules.quick-links-box-item>
 
@@ -63,20 +84,6 @@
             Minor: Business Administration
             <x-slot:description>
                 2016 - 2021 York University
-            </x-slot:description>
-        </x-modules.quick-links-box-item>
-
-        <x-modules.quick-links-box-item :link="'elwinm/Experience/ElwinM - Full-Stack Developer'">
-            Portfolio - Full-Stack Developer
-            <x-slot:description>
-                elwinm.ca and old.elwinm.ca portfolio
-            </x-slot:description>
-        </x-modules.quick-links-box-item>
-
-        <x-modules.quick-links-box-item :link="'elwinm/Experience/ElwinM - System Administrator'">
-            Portfolio - System Administrator
-            <x-slot:description>
-                Truenas Scale server management
             </x-slot:description>
         </x-modules.quick-links-box-item>
     </x-modules.quick-links-box>
