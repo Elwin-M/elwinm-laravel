@@ -20,7 +20,11 @@
     <p class="pt-4 content-main-group">
         In this project, I updated the old website to be more reactive, with updated features and interface.
         Below, you can see a side-by-side comparison showcasing the improvements in design, functionality, and
-        usability.
+        usability. Many features were added upon request, the code was simplified greatly, and overall performance was improved.
+    </p>
+
+    <p class="pt-4 content-main-group">
+        The home page is a kiosk style display that auto updates data when edited in the back-end, as well as rotates displays based on specified timers.
     </p>
 
     <x-modules.bar-horizontal />
@@ -28,15 +32,6 @@
         Image comparison
     </h2>
 
-    {{-- <x-modules.dropdown>
-        Click to show before and after
-        <x-slot:content>
-            <div class="pb-6">
-                <img class="rounded-md" src="{{ asset('images/old.elwinm.ca.png') }}"
-                    alt="Old elwinm website screenshot" width="full">
-            </div>
-        </x-slot:content>
-    </x-modules.dropdown> --}}
     <!-- Start -->
     <x-modules.description-list-main-outer>
         <!-- First Box -->
@@ -44,8 +39,20 @@
             <x-slot:title> Before </x-slot:title>
             <!-- List -->
             <x-modules.description-list-item>
-                <img class="rounded-md" src="{{ asset('images/old.elwinm.ca.png') }}" alt="Old elwinm website screenshot"
-                    width="full">
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysBEFOREunscaledpage.png') }}" width="full">
+                Old pages feature unscaled elements that are hard to see on larger displays.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysBEFOREemptypage.png') }}" width="full">
+                Old pages displayed when there were no entries to display.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysBEFOREoldimages.png') }}" width="full">
+                Images table missed needed features.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysBEFOREoldtableandui.png') }}" width="full">
+                Old table displayed all items at the same time. Lacked pagination, sorting, and other quality of life features.
             </x-modules.description-list-item>
         </x-modules.description-list-main-inner>
         
@@ -54,8 +61,36 @@
             <x-slot:title> After </x-slot:title>
             <!-- List -->
             <x-modules.description-list-item>
-                <img class="rounded-md" src="{{ asset('images/old.elwinm.ca.png') }}" alt="Old elwinm website screenshot"
-                    width="full">
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysAFTERscaledhome.png') }}" width="full">
+                Added proper scaling and increased visibility as per request of users.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysAFTERmultipleentries.png') }}" width="full">
+                Added option to add multiple entries at the same time.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysAFTERupdatedtablesandui.png') }}" width="full">
+                Reworked entire table display to incorporate search, pagination, bulk actions, and to enable entries with a single click.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysAFTERtableheader.png') }}" width="full">
+                Close-up of table headers.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysAFTERautoscroll.png') }}" width="full">
+                Not visible in screenshot, but added auto-scrolling for pages that featured large sets of entries.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysAFTERannouncementspage.png') }}" width="full">
+                Added a new announcements section.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysAFTERsettingspage.png') }}" width="full">
+                Added a settings page to hide/display different components, as well as gave the ability to set timers for components. Also added a fallback in case no components are enabled.
+            </x-modules.description-list-item>
+            <x-modules.description-list-item>
+                <img class="rounded-md" src="{{ asset('images/stmarys-comparison/stmarysAFTERimagespage.png') }}" width="full">
+                Updated images to have their own individual timers for the slideshow.
             </x-modules.description-list-item>
         </x-modules.description-list-main-inner>
     </x-modules.description-list-main-outer>
